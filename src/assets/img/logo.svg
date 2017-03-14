@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="33.312" height="31.031" viewBox="0 0 33.312 31.031">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 24px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: "OpenSans-Bold";
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .cls-3 {
+        fill: #2d93e3;
+      }
+
+      .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #04b5af;
+      }
+    </style>
+  </defs>
+  <g>
+    <text x="-1.688" y="23.813" class="cls-1"><tspan class="cls-2">da</tspan></text>
+    <path d="M0.005,-0.011 L15.327,-0.011 L15.327,4.030 L0.005,4.030 L0.005,-0.011 Z" class="cls-3"/>
+    <path d="M16.204,26.989 L33.016,26.989 L33.016,31.030 L16.204,31.030 L16.204,26.989 Z" class="cls-4"/>
+  </g>
+</svg>
