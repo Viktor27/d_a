@@ -7,10 +7,6 @@ a, button, input[type="button"], input[type="submit"] {
 body {
 	overflow-x: hidden;
 }
-/* img{
-	max-width: 100%;
-	height: auto;
-} */
 .no-js .top-bar {
 	display: none;
 }
@@ -136,9 +132,9 @@ body {
 	}
 	&--portfolio {
 		.row {
-			margin-bottom: 17px;
+			margin-bottom: 22px;
 			& +.row {
-				margin-bottom: -20px;
+				margin-bottom: -22px;
 			}
 			@include breakpoint(medium down) {
 				margin-bottom: 0;
@@ -230,12 +226,16 @@ body {
 .ba-services {
 	background-color: #FFF;
 	margin-bottom: 28px;
+	img {
+		width: 100%;
+	}
+
 	&__content {
 		padding: 25px 25px;
 		h3 {
-			margin: 0;
+			margin: 0 5px;
 			color:  #333333;
-			font-size: 20px;
+			font-size: 25px;
 			line-height: 1.2;
 		}
 		p {
@@ -268,8 +268,11 @@ body {
 .ba-work {
 	position: relative;
 	text-align: center;
-	display: inline-block;
+	display: block;
 	overflow: hidden;
+	img {
+		width: 100%;
+	}
 	&__overlay {
 		position: absolute;
 		left: 0;
